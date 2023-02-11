@@ -1,1 +1,0 @@
-fixed bugs, added massdm, added status changer, added group spammer
