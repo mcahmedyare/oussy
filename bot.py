@@ -1,4 +1,4 @@
-import nextcord
+Isimport nextcord
 from nextcord.ext import commands
 
 bot = commands.Bot(command_prefix='/', intents=nextcord.Intents.all())
@@ -14,4 +14,4 @@ async def on_member_join(member: nextcord.Member):
     await welcome_channel.send(embed=embed)
 
 
-bot.run('MTA2NTU4NjEwMjY1Nzg4ODI1Ng.G6PgcQ._voDdbb3UrlX61oFdDmy7q8TWYiGrPcxo0kLIk')
+bot.run('MTA2NTU4NjEwMjY1Nzg4ODI1Ng.G8g-p3.zrrDXf4Rqkg8n_Yzm0Sz7amVBnOwLKPcAmIhQ0')
