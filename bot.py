@@ -1,5 +1,8 @@
-Isimport nextcord
+import os
+import nextcord
 from nextcord.ext import commands
+
+TOKEN = os.environ['DISCORD_TOKEN']
 
 bot = commands.Bot(command_prefix='/', intents=nextcord.Intents.all())
 guild_id = None
@@ -14,4 +17,4 @@ async def on_member_join(member: nextcord.Member):
     await welcome_channel.send(embed=embed)
 
 
-bot.run('MTA2NTU4NjEwMjY1Nzg4ODI1Ng.G8g-p3.zrrDXf4Rqkg8n_Yzm0Sz7amVBnOwLKPcAmIhQ0')
+bot.run(TOKEN)
